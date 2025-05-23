@@ -151,10 +151,10 @@ const App = () => {
       <Board board={board} handleClick={handleClick} winningPattern={winningPattern} />
       <button className="reset-button" onClick={resetGame}>Play Again</button>
       <Scoreboard scores={scores} />
-      <footer>
+      {/* <footer>
         <p>By Dovydas Stirpeika 🔥</p>
         <p>Emojis from EmojiOne</p>
-      </footer>
+      </footer> */}
     </div>
   );
 };
